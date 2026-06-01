@@ -1,6 +1,8 @@
 # Hey, I'm Serhii 👋  &nbsp; I 💚 Backend
 
-**Senior Backend & AI Systems Engineer** · 7 years in distributed systems · building AI-native architecture
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=58A6FF&width=480&lines=Senior+Backend+Engineer;AI+Systems+Architect;MCP+Server+Builder;Open-Source+Contributor)](https://git.io/typing-svg)
+
+**7 years in distributed systems · building AI-native architecture**
 
 > 🌍 Open to remote opportunities — backend, AI systems, agent infrastructure
 
@@ -65,6 +67,12 @@ Earlier projects before shifting focus to AI systems:
 - 🔄 DEX integrations: Raydium, Orca, Meteora, Phoenix, Openbook, Lifinity
 - 💸 On-chain arbitrage bot with **Jito MEV bundle submission** and 3-hop route discovery
 - 📡 Real-time wallet & transaction monitoring with Telegram alerts
+
+---
+
+### 📊 Activity
+
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=serhiizghama&theme=react-dark&hide_border=true&area=true)](https://github.com/Ashutosh00710/github-readme-activity-graph)
 
 ---
 
