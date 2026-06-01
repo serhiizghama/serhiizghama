@@ -1,4 +1,4 @@
-# Hey, I'm Serhii 👋
+# Hey, I'm Serhii 👋  &nbsp; I 💚 Backend
 
 **Senior Backend & AI Systems Engineer** · 7 years in distributed systems · building AI-native architecture
 
