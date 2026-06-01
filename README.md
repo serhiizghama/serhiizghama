@@ -1,6 +1,6 @@
 # Hey, I'm Serhii 👋  &nbsp; I 💚 Backend
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=58A6FF&width=480&lines=Senior+Backend+Engineer;AI+Systems+Architect;MCP+Server+Builder;Open-Source+Contributor)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=58A6FF&width=520&lines=⚡+Senior+Backend+Engineer;🤖+AI+Systems+Architect;🔌+MCP+Server+Builder;🛠+Open-Source+Contributor)](https://git.io/typing-svg)
 
 **7 years in distributed systems · building AI-native architecture**
 
