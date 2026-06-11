@@ -2,19 +2,19 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=58A6FF&width=520&lines=⚡+Senior+Backend+Engineer;🤖+AI+Systems+Architect;🔌+MCP+Server+Builder;🛠+Open-Source+Contributor)](https://git.io/typing-svg)
 
-**7 years in distributed systems · building AI-native architecture**
+**6+ years in distributed systems · building AI-native architecture**
 
 > 🌍 Open to remote opportunities — backend, AI systems, agent infrastructure
 
 ---
 
-- 🧠 **Core stack:** Node.js · TypeScript · NestJS · Go · AWS
-- 🏗 Built and scaled **microservices in production** — 40+ services (Fintech) and 98-service clinical data lake (Life Sciences)
-- ☁️ Deep **AWS** experience: Lambda, ECS, SQS, S3, API Gateway, Secrets Manager, CodeBuild
-- 📨 Event-driven architecture: **Kafka · RabbitMQ · Redis Streams**
-- 🤖 Actively building **AI agent infrastructure** — multi-agent runtimes, LLM orchestration, MCP servers
-- 🔬 MSc thesis: **Gamma** — a browser-native multi-agent runtime system (NestJS microkernel + Redis Streams Memory Bus)
-- 🛠 Open-source contributor — **12+ merged PRs** in top TypeScript/AI-tooling repos
+- **Core stack:** Node.js · TypeScript · NestJS · Go · AWS
+- Built and scaled **microservices in production** — 40+ services (Fintech) and 98-service clinical data lake (Life Sciences)
+- Deep **AWS** experience: Lambda, ECS, SQS, S3, API Gateway, Secrets Manager, CodeBuild
+- Event-driven architecture: **Kafka · RabbitMQ · Redis Streams**
+- Actively building **AI agent infrastructure** — multi-agent runtimes, LLM orchestration, MCP servers
+- MSc thesis: **Gamma** — a browser-native multi-agent runtime system (NestJS microkernel + Redis Streams Memory Bus)
+- Open-source contributor — **12+ merged PRs** in top TypeScript/AI-tooling repos
 
 ---
 
@@ -33,11 +33,10 @@ What I actually use and build with:
 | **Multi-agent architecture** | Hierarchical agent systems with lifecycle management, inter-agent bus |
 | **SSE + WebSocket streaming** | Real-time LLM token delivery to clients |
 
-**Personal AI Projects:**
-- 🌐 **Gamma** — multi-agent runtime (NestJS microkernel, Redis Streams Memory Bus, agent lifecycle management, parallel subagent orchestration on isolated git branches)
-- 🔌 **OpenClaw** — AI gateway daemon: Claude/GPT-4/Gemini → Telegram, Slack, Discord, WhatsApp. Plugin/skills SDK, ElevenLabs TTS, A2UI canvas
-- 🔬 **Litmus** — autonomous parallel research system. Multiple AI agents on isolated branches, director orchestration, circadian scheduling, stagnation detection
-- 🎲 **CryptCrawler** — terminal roguelike where every room is narrated live by Gemini. [→ repo](https://github.com/serhiizghama/cryptcrawler)
+**Personal AI Projects — MCP servers (TypeScript):**
+- **[monobank-mcp](https://github.com/serhiizghama/monobank-mcp)** — MCP server for Monobank Open API: accounts, statements, exchange rates, webhooks, Corporate API
+- **[liqpay-mcp](https://github.com/serhiizghama/liqpay-mcp)** — MCP server for LiqPay, Ukraine's leading payment platform (PrivatBank)
+- **[viber-mcp](https://github.com/serhiizghama/viber-mcp)** — MCP server for Viber messenger (Rakuten Viber Bot API)
 
 ---
 
@@ -63,10 +62,10 @@ Active contributor to TypeScript / AI-tooling projects:
 
 Earlier projects before shifting focus to AI systems:
 
-- ⚡ Built apps interacting with **Solana blockchain** (Web3.js, RPC, transactions)
-- 🔄 DEX integrations: Raydium, Orca, Meteora, Phoenix, Openbook, Lifinity
-- 💸 On-chain arbitrage bot with **Jito MEV bundle submission** and 3-hop route discovery
-- 📡 Real-time wallet & transaction monitoring with Telegram alerts
+- Built apps interacting with **Solana blockchain** (Web3.js, RPC, transactions)
+- DEX integrations: Raydium, Orca, Meteora, Phoenix, Openbook, Lifinity
+- On-chain arbitrage bot with **Jito MEV bundle submission** and 3-hop route discovery
+- Real-time wallet & transaction monitoring with Telegram alerts
 
 ---
 
@@ -78,6 +77,7 @@ Earlier projects before shifting focus to AI systems:
 
 ### 🔗 Connect
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/serhiizghama)
 [![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/serhiizghama)
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/serhiizghama)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:serhii.zghama@gmail.com)
