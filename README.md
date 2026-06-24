@@ -14,7 +14,7 @@
 - Event-driven architecture: **Kafka · RabbitMQ · Redis Streams**
 - Actively building **AI agent infrastructure** — multi-agent runtimes, LLM orchestration, MCP servers
 - MSc thesis: **Gamma** — a browser-native multi-agent runtime system (NestJS microkernel + Redis Streams Memory Bus)
-- Open-source contributor — **16+ merged PRs** in top TypeScript/AI-tooling repos
+- Open-source contributor — **25+ merged PRs** in top TypeScript/AI-tooling repos
 
 ---
 
@@ -46,11 +46,14 @@ Active contributor to TypeScript / AI-tooling projects:
 
 | Project | ⭐ | What I fixed |
 |---|---|---|
-| [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | 43k | npm registry config in MCP install, list pages with title |
-| [danny-avila/LibreChat](https://github.com/danny-avila/LibreChat) | 38k | Bedrock MCP tool-description compat, Redis cluster-safe cache delete |
-| [yamadashy/repomix](https://github.com/yamadashy/repomix) | 26k | Cloudflare Turnstile fix, GitHub shorthand auto-detect |
-| [mastra-ai/mastra](https://github.com/mastra-ai/mastra) | 24k | Stream onFinish output-text fix, Datadog LLM-Obs tag promotion |
-| [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) | 22k | Code-scan comment validation, extension hook prompt preservation |
+| [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | 44k | npm registry config in MCP install, list pages with title |
+| [danny-avila/LibreChat](https://github.com/danny-avila/LibreChat) | 40k | Bedrock MCP tool-description compat, Redis cluster-safe cache delete, artifacts capability gate |
+| [CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit) | 35k | Forward core headers on owned thread-store requests |
+| [ComposioHQ/composio](https://github.com/ComposioHQ/composio) | 29k | Resolve `$ref`/`$defs` so file flags survive schema dereferencing |
+| [labring/FastGPT](https://github.com/labring/FastGPT) | 29k | MCP transport: fall back to legacy SSE only on 4xx errors |
+| [yamadashy/repomix](https://github.com/yamadashy/repomix) | 27k | Cloudflare Turnstile fix, GitHub shorthand auto-detect, case-insensitive extensions |
+| [mastra-ai/mastra](https://github.com/mastra-ai/mastra) | 25k | Durable-agent tool-fork fix, type-inference & observability fixes |
+| [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) | 22k | Code-scan comment validation, extension-hook prompt preservation |
 | [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory) | 21k | Memory recall format & endpoint fix |
 | [assistant-ui/assistant-ui](https://github.com/assistant-ui/assistant-ui) | 10k | Popover tab-select fix, AG-UI message export, reasoning copy exclusion |
 | [ax-llm/ax](https://github.com/ax-llm/ax) | 2.7k | Expose request body in error traces |
