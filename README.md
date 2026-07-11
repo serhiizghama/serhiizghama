@@ -59,6 +59,15 @@ Active contributor to TypeScript / AI-tooling projects — sorted by merge depth
 | [ax-llm/ax](https://github.com/ax-llm/ax) | 2.7k | 1 | Expose request body in error traces |
 | [alpic-ai/skybridge](https://github.com/alpic-ai/skybridge) | 1.7k | 1 | CSS asset URL transform skip |
 
+### 🔁 Why maintainers keep taking my PRs
+
+I don't farm PRs across dozens of repos. I go back to the same ones after a merge and find the next real bug there — that's why 4 repos above have repeated merges instead of a single drive-by fix.
+
+- Every PR ships with a root-cause writeup, a regression test verified against the *unfixed* code (not just green CI), and a negative control
+- No hallucinated claims about how someone else's system behaves — if I'm not sure, I say so or go check
+- When a maintainer asks for changes, I re-review the whole diff, not just the line they pointed at
+- Result: maintainers respond in kind — same-day merges, "Awesome, thanks for your contribution!" instead of silence
+
 ---
 
 ### 🌐 Web3 Background
