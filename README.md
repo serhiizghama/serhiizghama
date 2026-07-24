@@ -12,7 +12,7 @@
 - Event-driven architecture: **Kafka · RabbitMQ · Redis Streams**
 - Actively building **AI agent infrastructure** — multi-agent runtimes, LLM orchestration, MCP servers
 - MSc thesis: **Gamma** — a browser-native multi-agent runtime system (NestJS microkernel + Redis Streams Memory Bus)
-- Open-source contributor — **40+ merged PRs** in top TypeScript/AI-tooling repos, repeat contributor in 5 of them
+- Open-source contributor — **44+ merged PRs** in top TypeScript/AI-tooling repos, repeat contributor in 6 of them
 
 ---
 
@@ -44,19 +44,19 @@ Active contributor to TypeScript / AI-tooling projects — sorted by merge depth
 
 | Project | ⭐ | Merged | What I fixed |
 |---|---|---|---|
-| [yamadashy/repomix](https://github.com/yamadashy/repomix) | 27k | 9 | Windows path-separator tree bug, `--token-count-tree` underscore-dir bug, Cloudflare Turnstile fix, GitHub shorthand auto-detect, case-insensitive extensions, oversized-directory output split, markdown fence widened against embedded diffs, extensionless-filename language hint in subdirectories |
+| [yamadashy/repomix](https://github.com/yamadashy/repomix) | 27k | 10 | Windows path-separator tree bug, `--token-count-tree` underscore-dir bug, Cloudflare Turnstile fix, GitHub shorthand auto-detect, case-insensitive extensions, oversized-directory output split, markdown fence widened against embedded diffs, extensionless-filename language hint, output-path POSIX normalization |
 | [assistant-ui/assistant-ui](https://github.com/assistant-ui/assistant-ui) | 11k | 6 | Popover tab-select fix, AG-UI message export, reasoning copy exclusion, `threadId`/`initialThreadId` forwarding through LangGraph runtime, human-in-the-loop resume on falsy tool result |
-| [mastra-ai/mastra](https://github.com/mastra-ai/mastra) | 26k | 4 | `DurableAgent` readOnly-memory persistence fix, durable-agent tool-fork fix, type-inference & observability fixes |
+| [mastra-ai/mastra](https://github.com/mastra-ai/mastra) | 27k | 4 | `DurableAgent` readOnly-memory persistence fix, durable-agent tool-fork fix, type-inference & observability fixes |
 | [danny-avila/LibreChat](https://github.com/danny-avila/LibreChat) | 41k | 4 | Agent conversation-starters dropped from list projection, Bedrock MCP tool-description compat, Redis cluster-safe cache delete, artifacts capability gate |
+| [theopenco/llmgateway](https://github.com/theopenco/llmgateway) | 1.5k | 3 | Cached-mutation staleness through uncached db reads, streaming Responses-API output-index collision (x2) |
 | [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) (Google) | 47k | 3 | Multi-file upload support, upload-on-non-input-element crash, network/console pagination on page 0 |
 | [CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit) | 36k | 2 | Re-landed dropped run-started event bridge for the Web Inspector, forward core headers on owned thread-store requests |
 | [ComposioHQ/composio](https://github.com/ComposioHQ/composio) | 29k | 2 | Nullable/relaxed output schema for third-party API nulls, resolve `$ref`/`$defs` so file flags survive schema dereferencing |
-| [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) | 23k | 2 | Code-scan comment validation, extension-hook prompt preservation |
-| [theopenco/llmgateway](https://github.com/theopenco/llmgateway) | 1.4k | 2 | Cached-mutation staleness through uncached db reads, streaming Responses-API output-index collision |
+| [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) | 24k | 2 | Code-scan comment validation, extension-hook prompt preservation |
 | [labring/FastGPT](https://github.com/labring/FastGPT) | 29k | 1 | MCP transport: fall back to legacy SSE only on 4xx errors |
-| [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory) | 21k | 1 | Memory recall format & endpoint fix |
-| [ax-llm/ax](https://github.com/ax-llm/ax) | 2.7k | 1 | Expose request body in error traces |
-| [alpic-ai/skybridge](https://github.com/alpic-ai/skybridge) | 1.7k | 1 | CSS asset URL transform skip |
+| [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory) | 26k | 1 | Memory recall format & endpoint fix |
+| [ax-llm/ax](https://github.com/ax-llm/ax) | 2.8k | 1 | Expose request body in error traces |
+| [alpic-ai/skybridge](https://github.com/alpic-ai/skybridge) | 1.9k | 1 | CSS asset URL transform skip |
 | [dyad-sh/dyad](https://github.com/dyad-sh/dyad) | 21k | 1 | LM Studio model listing dropped vision-capable models |
 
 ---
