@@ -12,7 +12,7 @@
 - Event-driven architecture: **Kafka · RabbitMQ · Redis Streams**
 - Actively building **AI agent infrastructure** — multi-agent runtimes, LLM orchestration, MCP servers
 - MSc thesis: **Gamma** — a browser-native multi-agent runtime system (NestJS microkernel + Redis Streams Memory Bus)
-- Open-source contributor — **68 merged PRs** across 27 AI-tooling repos, repeat contributor in 13 of them — TypeScript agent frameworks, now equally active in Python/Go LLM infrastructure (embeddings, retrieval metrics, vector search, agent memory)
+- Open-source contributor — **72 merged PRs** across 27 AI-tooling repos, repeat contributor in 16 of them — TypeScript agent frameworks, now equally active in Python/Go LLM infrastructure (embeddings, retrieval metrics, vector search, agent memory, MCP servers)
 
 ---
 
@@ -55,16 +55,18 @@ Active contributor across AI-tooling and LLM-infrastructure repos — sorted by 
 | [CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit) | CopilotKit | 37k | 2 |
 | [ComposioHQ/composio](https://github.com/ComposioHQ/composio) | Composio | 30k | 2 |
 | [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) | Promptfoo | 25k | 2 |
-| [plastic-labs/honcho](https://github.com/plastic-labs/honcho) | Plastic Labs | 6.9k | 2 |
+| [mark3labs/mcp-go](https://github.com/mark3labs/mcp-go) | Mark3Labs | 9.1k | 2 |
+| [plastic-labs/honcho](https://github.com/plastic-labs/honcho) | Plastic Labs | 7.0k | 2 |
 | [Nano-Collective/nanocoder](https://github.com/Nano-Collective/nanocoder) | Nano Collective | 2.4k | 2 |
-| [labring/FastGPT](https://github.com/labring/FastGPT) | Labring (Sealos) | 29k | 1 |
+| [MinishLab/model2vec](https://github.com/MinishLab/model2vec) | Minish | 2.2k | 2 |
+| [datalayer/jupyter-mcp-server](https://github.com/datalayer/jupyter-mcp-server) | Datalayer | 1.3k | 2 |
+| [labring/FastGPT](https://github.com/labring/FastGPT) | Labring (Sealos) | 30k | 1 |
 | [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory) | Rohit Ghumare | 28k | 1 |
 | [dyad-sh/dyad](https://github.com/dyad-sh/dyad) | Dyad | 21k | 1 |
 | [rowboatlabs/rowboat](https://github.com/rowboatlabs/rowboat) | RowBoat Labs | 17k | 1 |
 | [neuml/txtai](https://github.com/neuml/txtai) | NeuML | 13k | 1 |
 | [openai/openai-node](https://github.com/openai/openai-node) | OpenAI | 11k | 1 |
-| [sashabaranov/go-openai](https://github.com/sashabaranov/go-openai) | Alex Baranov | 10.7k | 1 |
-| [MinishLab/model2vec](https://github.com/MinishLab/model2vec) | Minish | 2.2k | 1 |
+| [sashabaranov/go-openai](https://github.com/sashabaranov/go-openai) | Alex Baranov | 10.8k | 1 |
 | [alpic-ai/skybridge](https://github.com/alpic-ai/skybridge) | Alpic | 2.0k | 1 |
 | [zilliztech/VectorDBBench](https://github.com/zilliztech/VectorDBBench) | Zilliz | 1.2k | 1 |
 | [provos/ironcurtain](https://github.com/provos/ironcurtain) | Niels Provos | 0.6k | 1 |
@@ -79,12 +81,6 @@ Earlier projects before shifting focus to AI systems:
 - DEX integrations: Raydium, Orca, Meteora, Phoenix, Openbook, Lifinity
 - On-chain arbitrage bot with **Jito MEV bundle submission** and 3-hop route discovery
 - Real-time wallet & transaction monitoring with Telegram alerts
-
----
-
-### 📊 Activity
-
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=serhiizghama&theme=react-dark&hide_border=true&area=true)](https://github.com/Ashutosh00710/github-readme-activity-graph)
 
 ---
 
