@@ -12,7 +12,7 @@
 - Event-driven architecture: **Kafka · RabbitMQ · Redis Streams**
 - Actively building **AI agent infrastructure** — multi-agent runtimes, LLM orchestration, MCP servers
 - MSc thesis: **Gamma** — a browser-native multi-agent runtime system (NestJS microkernel + Redis Streams Memory Bus)
-- Open-source contributor — **72 merged PRs** across 27 AI-tooling repos, repeat contributor in 16 of them — TypeScript agent frameworks, now equally active in Python/Go LLM infrastructure (embeddings, retrieval metrics, vector search, agent memory, MCP servers)
+- Open-source contributor — **75 merged PRs** across 28 AI-tooling repos, repeat contributor in 17 of them, including upstreams maintained by **OpenAI** and **Google** — TypeScript agent frameworks, now equally active in Python/Go LLM infrastructure (embeddings, retrieval metrics, vector search, agent memory, MCP servers)
 
 ---
 
@@ -50,12 +50,13 @@ Active contributor across AI-tooling and LLM-infrastructure repos — sorted by 
 | [theopenco/llmgateway](https://github.com/theopenco/llmgateway) | LLM Gateway | 1.6k | 6 |
 | [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | Google | 50k | 4 |
 | [danny-avila/LibreChat](https://github.com/danny-avila/LibreChat) | Danny Avila | 43k | 4 |
+| [mark3labs/mcp-go](https://github.com/mark3labs/mcp-go) | Mark3Labs | 9.1k | 3 |
 | [embeddings-benchmark/mteb](https://github.com/embeddings-benchmark/mteb) | MTEB Community | 3.4k | 3 |
 | [ax-llm/ax](https://github.com/ax-llm/ax) | Ax | 2.9k | 3 |
 | [CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit) | CopilotKit | 37k | 2 |
 | [ComposioHQ/composio](https://github.com/ComposioHQ/composio) | Composio | 30k | 2 |
 | [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) | Promptfoo | 25k | 2 |
-| [mark3labs/mcp-go](https://github.com/mark3labs/mcp-go) | Mark3Labs | 9.1k | 2 |
+| [neuml/txtai](https://github.com/neuml/txtai) | NeuML | 13k | 2 |
 | [plastic-labs/honcho](https://github.com/plastic-labs/honcho) | Plastic Labs | 7.0k | 2 |
 | [Nano-Collective/nanocoder](https://github.com/Nano-Collective/nanocoder) | Nano Collective | 2.4k | 2 |
 | [MinishLab/model2vec](https://github.com/MinishLab/model2vec) | Minish | 2.2k | 2 |
@@ -64,7 +65,6 @@ Active contributor across AI-tooling and LLM-infrastructure repos — sorted by 
 | [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory) | Rohit Ghumare | 28k | 1 |
 | [dyad-sh/dyad](https://github.com/dyad-sh/dyad) | Dyad | 21k | 1 |
 | [rowboatlabs/rowboat](https://github.com/rowboatlabs/rowboat) | RowBoat Labs | 17k | 1 |
-| [neuml/txtai](https://github.com/neuml/txtai) | NeuML | 13k | 1 |
 | [openai/openai-node](https://github.com/openai/openai-node) | OpenAI | 11k | 1 |
 | [sashabaranov/go-openai](https://github.com/sashabaranov/go-openai) | Alex Baranov | 10.8k | 1 |
 | [alpic-ai/skybridge](https://github.com/alpic-ai/skybridge) | Alpic | 2.0k | 1 |
