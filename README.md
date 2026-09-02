@@ -12,7 +12,7 @@
 - Event-driven architecture: **Kafka · RabbitMQ · Redis Streams**
 - Actively building **AI agent infrastructure** — multi-agent runtimes, LLM orchestration, MCP servers
 - MSc thesis: **Gamma** — a browser-native multi-agent runtime system (NestJS microkernel + Redis Streams Memory Bus)
-- Open-source contributor — **75 merged PRs** across 28 AI-tooling repos, repeat contributor in 17 of them, including upstreams maintained by **OpenAI** and **Google** — TypeScript agent frameworks, now equally active in Python/Go LLM infrastructure (embeddings, retrieval metrics, vector search, agent memory, MCP servers)
+- Open-source contributor — **74 merged PRs** across 27 AI-tooling repos, repeat contributor in 17 of them, including upstreams maintained by **OpenAI** and **Google** — TypeScript agent frameworks, now equally active in Python/Go LLM infrastructure (embeddings, retrieval metrics, vector search, agent memory, MCP servers)
 
 ---
 
