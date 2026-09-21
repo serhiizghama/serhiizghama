@@ -12,7 +12,7 @@
 - Event-driven architecture: **Kafka · RabbitMQ · Redis Streams**
 - Actively building **AI agent infrastructure** — multi-agent runtimes, LLM orchestration, MCP servers
 - MSc thesis: **Gamma** — a browser-native multi-agent runtime system (NestJS microkernel + Redis Streams Memory Bus)
-- Open-source contributor — **74 merged PRs** across 27 AI-tooling repos, repeat contributor in 17 of them, including upstreams maintained by **OpenAI** and **Google** — TypeScript agent frameworks, now equally active in Python/Go LLM infrastructure (embeddings, retrieval metrics, vector search, agent memory, MCP servers)
+- Open-source contributor — **93 merged PRs** across 30 open-source repos, repeat contributor in 18 of them, including upstreams maintained by **OpenAI** and **Google** — started in TypeScript agent frameworks, now equally at home in Python/Go LLM infrastructure (MCP SDKs and servers, embeddings, retrieval, LLM clients, agent memory, evals)
 
 ---
 
@@ -40,33 +40,34 @@ What I actually use and build with:
 
 ### 🤝 Open-Source Contributions
 
-Active contributor across AI-tooling and LLM-infrastructure repos — sorted by merge depth, not just stars. Two-year focus on TypeScript agent frameworks, now equally active in Python/Go AI-core projects (retrieval metrics, embeddings, vector search, agent memory, LLM clients).
+Active contributor across LLM-infrastructure repos — sorted by merge depth, not just stars. Started with TypeScript agent frameworks, now equally active in Python and Go: MCP SDKs and servers, embeddings and retrieval, LLM API clients, vector-search benchmarks, agent memory, eval tooling.
 
 | Project | Company / Author | ⭐ | Merged |
 |---|---|---|---|
-| [yamadashy/repomix](https://github.com/yamadashy/repomix) | Kazuki Yamada | 28k | 10 |
+| [yamadashy/repomix](https://github.com/yamadashy/repomix) | Kazuki Yamada | 28k | 13 |
 | [assistant-ui/assistant-ui](https://github.com/assistant-ui/assistant-ui) | Assistant-UI | 12k | 9 |
 | [mastra-ai/mastra](https://github.com/mastra-ai/mastra) | Mastra | 28k | 6 |
 | [theopenco/llmgateway](https://github.com/theopenco/llmgateway) | LLM Gateway | 1.6k | 6 |
-| [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | Google | 50k | 4 |
-| [danny-avila/LibreChat](https://github.com/danny-avila/LibreChat) | Danny Avila | 43k | 4 |
-| [mark3labs/mcp-go](https://github.com/mark3labs/mcp-go) | Mark3Labs | 9.1k | 3 |
-| [embeddings-benchmark/mteb](https://github.com/embeddings-benchmark/mteb) | MTEB Community | 3.4k | 3 |
+| [MinishLab/model2vec](https://github.com/MinishLab/model2vec) | Minish Lab | 2.2k | 6 |
+| [neuml/txtai](https://github.com/neuml/txtai) | NeuML | 13k | 5 |
+| [datalayer/jupyter-mcp-server](https://github.com/datalayer/jupyter-mcp-server) | Datalayer | 1.3k | 5 |
+| [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) | Google | 52k | 4 |
+| [danny-avila/LibreChat](https://github.com/danny-avila/LibreChat) | Danny Avila | 44k | 4 |
+| [mark3labs/mcp-go](https://github.com/mark3labs/mcp-go) | Mark3Labs | 9.1k | 4 |
 | [ax-llm/ax](https://github.com/ax-llm/ax) | Ax | 2.9k | 3 |
+| [embeddings-benchmark/mteb](https://github.com/embeddings-benchmark/mteb) | MTEB Community | 3.4k | 3 |
+| [sashabaranov/go-openai](https://github.com/sashabaranov/go-openai) | Alex Baranov | 10.8k | 3 |
 | [CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit) | CopilotKit | 37k | 2 |
 | [ComposioHQ/composio](https://github.com/ComposioHQ/composio) | Composio | 30k | 2 |
 | [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) | Promptfoo | 25k | 2 |
-| [neuml/txtai](https://github.com/neuml/txtai) | NeuML | 13k | 2 |
-| [plastic-labs/honcho](https://github.com/plastic-labs/honcho) | Plastic Labs | 7.0k | 2 |
-| [Nano-Collective/nanocoder](https://github.com/Nano-Collective/nanocoder) | Nano Collective | 2.4k | 2 |
-| [MinishLab/model2vec](https://github.com/MinishLab/model2vec) | Minish | 2.2k | 2 |
-| [datalayer/jupyter-mcp-server](https://github.com/datalayer/jupyter-mcp-server) | Datalayer | 1.3k | 2 |
+| [plastic-labs/honcho](https://github.com/plastic-labs/honcho) | Plastic Labs | 7.2k | 2 |
+| [Nano-Collective/nanocoder](https://github.com/Nano-Collective/nanocoder) | Nano Collective | 2.5k | 2 |
 | [labring/FastGPT](https://github.com/labring/FastGPT) | Labring (Sealos) | 30k | 1 |
 | [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory) | Rohit Ghumare | 28k | 1 |
-| [dyad-sh/dyad](https://github.com/dyad-sh/dyad) | Dyad | 21k | 1 |
-| [rowboatlabs/rowboat](https://github.com/rowboatlabs/rowboat) | RowBoat Labs | 17k | 1 |
+| [dyad-sh/dyad](https://github.com/dyad-sh/dyad) | Dyad | 22k | 1 |
+| [rowboatlabs/rowboat](https://github.com/rowboatlabs/rowboat) | RowBoat Labs | 18k | 1 |
 | [openai/openai-node](https://github.com/openai/openai-node) | OpenAI | 11k | 1 |
-| [sashabaranov/go-openai](https://github.com/sashabaranov/go-openai) | Alex Baranov | 10.8k | 1 |
+| [thrasher-corp/gocryptotrader](https://github.com/thrasher-corp/gocryptotrader) | Thrasher Corp | 3.5k | 1 |
 | [alpic-ai/skybridge](https://github.com/alpic-ai/skybridge) | Alpic | 2.0k | 1 |
 | [zilliztech/VectorDBBench](https://github.com/zilliztech/VectorDBBench) | Zilliz | 1.2k | 1 |
 | [provos/ironcurtain](https://github.com/provos/ironcurtain) | Niels Provos | 0.6k | 1 |
