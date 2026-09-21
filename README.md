@@ -1,46 +1,34 @@
-# Hey, I'm Serhii 👋  &nbsp; I 💚 Backend
+# Hey, I'm Serhii 👋
 
-**6+ years in distributed systems · building AI-native architecture**
+**Backend / Platform Engineer — LLM systems in production**
 
-> 🌍 Open to remote opportunities — backend, AI systems, agent infrastructure
-
----
-
-- **Core stack:** Node.js · TypeScript · NestJS · Go · Python · AWS
-- Built and scaled **microservices in production** — 40+ services (Fintech) and 98-service clinical data lake (Life Sciences)
-- Deep **AWS** experience: Lambda, ECS, SQS, S3, API Gateway, Secrets Manager, CodeBuild
-- Event-driven architecture: **Kafka · RabbitMQ · Redis Streams**
-- Actively building **AI agent infrastructure** — multi-agent runtimes, LLM orchestration, MCP servers
-- MSc thesis: **Gamma** — a browser-native multi-agent runtime system (NestJS microkernel + Redis Streams Memory Bus)
-- Open-source contributor — **93 merged PRs** across 30 open-source repos, repeat contributor in 18 of them, including upstreams maintained by **OpenAI** and **Google** — started in TypeScript agent frameworks, now equally at home in Python/Go LLM infrastructure (MCP SDKs and servers, embeddings, retrieval, LLM clients, agent memory, evals)
+> 🌍 Open to remote roles: AI Platform · Agent Infrastructure · LLM Systems · Backend (AI)
 
 ---
 
-### 🤖 AI & LLM Stack
+- **Stack:** TypeScript · Python · Go · Node.js / NestJS · PostgreSQL · Redis · Kafka · gRPC · AWS
+- 6+ years of backend in **fintech** and **life sciences** — event-driven microservices, streaming data pipelines, AWS serverless
+- Now building the layer around LLMs: **routing · tools / MCP · memory & state · evals · observability · orchestration · serving & cost**
+- Open-source contributor — **93 merged PRs** across 30 repos, repeat contributor in 18, including upstreams maintained by **OpenAI** and **Google**
 
-What I actually use and build with:
+---
 
-| Tool / Technology | How I use it |
-|---|---|
-| **Anthropic Claude API** | Agent reasoning, orchestration, code generation, multi-turn pipelines |
-| **OpenAI API** (GPT-4) | Multi-provider gateway, fallback routing, embeddings |
-| **Google Gemini API** | Vision, classification, real-time narration (gemini-2.0-flash) |
-| **Model Context Protocol (MCP)** | Building MCP servers for external services (Monobank, Viber, etc.) |
-| **RAG + pgvector** | Semantic search pipelines over custom knowledge bases |
-| **Ollama / Llama 3 / Qwen** | Local inference, offline agent loops, cost-free experimentation |
-| **Multi-agent architecture** | Hierarchical agent systems with lifecycle management, inter-agent bus |
-| **SSE + WebSocket streaming** | Real-time LLM token delivery to clients |
+### 🛠 Systems I build
 
-**Personal AI Projects — MCP servers (TypeScript):**
-- **[monobank-mcp](https://github.com/serhiizghama/monobank-mcp)** — MCP server for Monobank Open API: accounts, statements, exchange rates, webhooks, Corporate API
-- **[liqpay-mcp](https://github.com/serhiizghama/liqpay-mcp)** — MCP server for LiqPay, Ukraine's leading payment platform (PrivatBank)
-- **[viber-mcp](https://github.com/serhiizghama/viber-mcp)** — MCP server for Viber messenger (Rakuten Viber Bot API)
+| Project | What it is | Layer |
+|---|---|---|
+| **[warren](https://github.com/serhiizghama/warren)** | Self-hosted network of always-on Claude Code agents: an orchestrator routes work to domain agents, they talk over a file-based message bus, run on cron/launchd and are reachable from a phone. Runs on a subscription, not the metered API | orchestration · state · ops |
+| **[gamma-runtime](https://github.com/serhiizghama/gamma-runtime)** | Local-first multi-agent platform: NestJS microkernel, Redis Streams as the event bus, SSE / WebSocket streaming to the browser (MSc thesis) | orchestration · serving |
+| **[monobank-mcp](https://github.com/serhiizghama/monobank-mcp)** · **[liqpay-mcp](https://github.com/serhiizghama/liqpay-mcp)** · **[viber-mcp](https://github.com/serhiizghama/viber-mcp)** | MCP servers for banking, payments and messaging APIs — `monobank-mcp` is published on npm | tools / MCP |
+| **[ai-agent-auth](https://github.com/serhiizghama/ai-agent-auth)** | Cryptographic authentication protocol for autonomous agents: DIDs + Ed25519 challenge signing, replay protection, revocation, ~1.2 ms sign + verify | agent identity |
+| **[futures-engine](https://github.com/serhiizghama/futures-engine)** | Event-driven position processing: Kafka between services, Redis on the hot path, PostgreSQL as the source of truth | backend foundation |
+| Voice delivery pipeline | Text-to-speech track with retry layers, fallback voices and a re-synthesis queue, delivered through Telegram bots (private) | serving · resilience |
 
 ---
 
 ### 🤝 Open-Source Contributions
 
-Active contributor across LLM-infrastructure repos — sorted by merge depth, not just stars. Started with TypeScript agent frameworks, now equally active in Python and Go: MCP SDKs and servers, embeddings and retrieval, LLM API clients, vector-search benchmarks, agent memory, eval tooling.
+Contributor across LLM-infrastructure repos — sorted by merge depth, not just stars. Started with TypeScript agent frameworks, now equally active in Python and Go: MCP SDKs and servers, embeddings and retrieval, LLM API clients, vector-search benchmarks, agent memory, eval tooling.
 
 | Project | Company / Author | ⭐ | Merged |
 |---|---|---|---|
@@ -74,14 +62,11 @@ Active contributor across LLM-infrastructure repos — sorted by merge depth, no
 
 ---
 
-### 🌐 Web3 Background
+### 💼 Background
 
-Earlier projects before shifting focus to AI systems:
+**PaidPex** (2025 – now) — backend for a trading platform: real-time market data over WebSockets, a price-aggregation pipeline (workers → gRPC → gateway → Kafka), Redis-based leader election, PostgreSQL.
 
-- Built apps interacting with **Solana blockchain** (Web3.js, RPC, transactions)
-- DEX integrations: Raydium, Orca, Meteora, Phoenix, Openbook, Lifinity
-- On-chain arbitrage bot with **Jito MEV bundle submission** and 3-hop route discovery
-- Real-time wallet & transaction monitoring with Telegram alerts
+**EDETEK** (2019 – 2025) — clinical data management platform for life sciences: event-driven pipelines on AWS Lambda / SQS / S3, large-scale stream processing of CSV / XML / JSON with distributed locks, shared libraries across Nx / Lerna monorepos.
 
 ---
 
@@ -91,26 +76,6 @@ Earlier projects before shifting focus to AI systems:
 [![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/serhiizghama)
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/serhiizghama)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:serhii.zghama@gmail.com)
-
----
-
-### ⚒️ Languages & Tools
-
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![NestJS](https://img.shields.io/badge/NestJS-e0234e?style=for-the-badge&logo=nestjs&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![Google Gemini](https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 ---
 
