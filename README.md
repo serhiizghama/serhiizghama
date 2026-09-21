@@ -9,7 +9,7 @@
 - **Stack:** TypeScript · Python · Go · Node.js / NestJS · PostgreSQL · Redis · Kafka · gRPC · AWS
 - 6+ years of backend in **fintech** and **life sciences** — event-driven microservices, streaming data pipelines, AWS serverless
 - Now building the layer around LLMs: **routing · tools / MCP · memory & state · evals · observability · orchestration · serving & cost**
-- Open-source contributor — **93 merged PRs** across 30 repos, repeat contributor in 18, including upstreams maintained by **OpenAI** and **Google**
+- Open-source contributor to LLM-infrastructure projects — MCP SDKs and servers, agent frameworks, retrieval and eval tooling — with repeat merges in many of them, including upstreams maintained by **OpenAI** and **Google**
 
 ---
 
